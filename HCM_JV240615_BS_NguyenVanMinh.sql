@@ -117,7 +117,7 @@ from orders o
 
 -- Cập nhật trạng thái đơn hàng có id là 1
 update orders
-set status = 2
+set status = 1
 where id = 1;
 
 -- Hiển thị chi tiết đơn hàng của đơn hàng có id là 1, bao gồm
